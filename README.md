@@ -9,7 +9,7 @@ TODO: Add doi
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone <https://github.com/and-jonas/train-eval-leaf>
+git clone https://github.com/and-jonas/train-eval-leaf
 cd train-eval-leaf
 pip install -r requirements.txt
 ```
