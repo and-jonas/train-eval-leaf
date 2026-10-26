@@ -1,0 +1,24 @@
+# @package _global_
+
+defaults:
+  - /model: yolo11
+  - /optimization: kpt
+  - /dataset: base_yolo
+  - /sweep: yolo11_comparison
+  - override /hydra/launcher: submitit_slurm
+  - _self_
+
+task: symptoms
+run_name: yolo11_comparison
+seed: 42
+fold: null
+
+hydra:
+  mode: MULTIRUN
+  launcher:
+    partition: gpu
+    gpus_per_node: 1
+    cpus_per_task: 4
+    mem_gb: 32
+    timeout_min: 900
+    array_parallelism: 3

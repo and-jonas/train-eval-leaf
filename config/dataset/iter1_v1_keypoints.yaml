@@ -1,0 +1,3 @@
+dataset_name: iter1_v1_keypoints
+
+data_yaml: /scratch0/f89601470/Symptoms/iter1/v1/keypoints/dataset.yaml

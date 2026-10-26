@@ -1,0 +1,30 @@
+# @package _global_
+
+defaults:
+  - /model: base
+  - /optimization: seg
+  - /data_augmentation: base
+  - /dataset: base
+  - /sweep: architecture_comparison
+  - override /hydra/launcher: submitit_slurm
+  - _self_
+
+task: symptoms
+run_name: architecture_comparison
+seed: 42
+fold: null
+
+optimization:
+  epochs: 150
+  early_stopping:
+    enabled: true
+
+hydra:
+  mode: MULTIRUN
+  launcher:
+    partition: gpu
+    gpus_per_node: 1
+    cpus_per_task: 4
+    mem_gb: 32
+    timeout_min: 900
+    array_parallelism: 3

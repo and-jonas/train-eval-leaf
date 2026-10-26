@@ -1,0 +1,6 @@
+# @package hydra.sweeper
+
+params:
+  model.backbone: mit_b0,mit_b1,mit_b2,mit_b3,mit_b4
+  dataset.dataset_name: EFD_segmentation, EFDv2_segmentation, EFDv2plus_segmentation
+  seed: 42,43,44,45,46,47

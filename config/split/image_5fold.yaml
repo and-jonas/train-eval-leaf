@@ -1,0 +1,5 @@
+name: image_5fold
+
+path: ${hydra:runtime.cwd}/splits/${task}/${split.name}.csv
+
+folds: all

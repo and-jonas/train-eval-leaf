@@ -1,0 +1,9 @@
+dataset_name: ZenklEtAl2026
+
+train:
+  data: /scratch0/f89601470/ZenklEtAl2026/train/data
+  labels: /scratch0/f89601470/ZenklEtAl2026/train/labels
+
+val:
+  data: /scratch0/f89601470/ZenklEtAl2026/val/data
+  labels: /scratch0/f89601470/ZenklEtAl2026/val/labels

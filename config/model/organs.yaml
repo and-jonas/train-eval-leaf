@@ -1,0 +1,15 @@
+head: fpn
+backbone: mit_b3
+
+n_classes: 3
+class_names: 
+  - Background
+  - Ears
+  - Stems
+
+metric_classes:
+  - Ears
+  - Stems
+
+encoder_weights: null
+encoder_weights_path: /scratch0/f89601470/torch/hub/checkpoints/${model.backbone}.pth

@@ -1,0 +1,4 @@
+dataset_name: iter1_v1_segmentation
+
+data: /scratch0/f89601470/Symptoms/iter1/v1/segmentation/data
+labels: /scratch0/f89601470/Symptoms/iter1/v1/segmentation/labels

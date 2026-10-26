@@ -1,0 +1,31 @@
+# @package _global_
+
+defaults:
+  - /model: base
+  - /split: image_5fold
+  - /optimization: seg
+  - /data_augmentation: base
+  - /dataset: iter1_v1_segmentation
+  - /sweep: validation_logo
+  - override /hydra/launcher: submitit_slurm
+  - _self_
+
+task: symptoms
+run_name: segmentation_validation
+seed: 42
+fold: null
+
+optimization:
+  epochs: 150
+  early_stopping:
+    enabled: true
+
+hydra:
+  mode: MULTIRUN
+  launcher:
+    partition: gpu
+    gpus_per_node: 1
+    cpus_per_task: 4
+    mem_gb: 32
+    timeout_min: 900
+    array_parallelism: 3

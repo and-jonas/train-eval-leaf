@@ -1,0 +1,3 @@
+name: yolo11
+size: l
+weights: /scratch0/f89601470/torch/hub/checkpoints/yolo11${model.size}-pose.pt

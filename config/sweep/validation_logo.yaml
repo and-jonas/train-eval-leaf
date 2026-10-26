@@ -1,0 +1,4 @@
+# @package hydra.sweeper
+
+params:
+  split: image_5fold, plot_5fold, genotype_logo

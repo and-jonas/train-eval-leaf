@@ -1,0 +1,9 @@
+dataset_name: EFD_segmentation
+
+train:
+  data: /scratch0/f89601470/ZenklEtAl2026/${dataset.dataset_name}/train/data
+  labels: /scratch0/f89601470/ZenklEtAl2026/${dataset.dataset_name}/train/labels
+
+val:
+  data: /scratch0/f89601470/ZenklEtAl2026/${dataset.dataset_name}/val/data
+  labels: /scratch0/f89601470/ZenklEtAl2026/${dataset.dataset_name}/val/labels

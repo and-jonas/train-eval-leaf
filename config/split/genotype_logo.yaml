@@ -1,0 +1,5 @@
+name: genotype_logo
+
+path: ${hydra:runtime.cwd}/splits/${task}/${split.name}.csv
+
+folds: all

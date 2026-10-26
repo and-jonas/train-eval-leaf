@@ -1,0 +1,21 @@
+name: mild
+
+train:
+  hflip: True
+  vflip: True
+  random_scale: 0.0
+  random_rotate: 45
+  random_crop: 512
+  color_jitter:
+    brightness: 0.0
+    contrast: 0.0
+    saturation: 0.0
+    hue: 0.0
+  resize: 512
+  gaussian_blur: 0.0
+  gaussian_noise: 0.0
+
+  
+val:
+  resize: 1024
+

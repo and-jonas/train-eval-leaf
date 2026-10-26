@@ -1,0 +1,5 @@
+# @package hydra.sweeper
+params:
+  model.size: n,s,m,l
+  dataset.dataset_name: EFD_keypoint,EFDv2_keypoint,EFDv2plus_keypoint
+  seed: 42,43,44,45,46,47

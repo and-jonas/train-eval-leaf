@@ -1,0 +1,17 @@
+head: fpn
+backbone: mit_b3
+
+n_classes: 5
+class_names: 
+  - Background
+  - Leaf
+  - Leaf_Damage
+  - insect_damage
+  - Powdery_Mildew
+metric_classes:
+  - Leaf_Damage
+  - insect_damage
+  - Powdery_Mildew
+
+encoder_weights: null
+encoder_weights_path: /scratch0/f89601470/torch/hub/checkpoints/${model.backbone}.pth

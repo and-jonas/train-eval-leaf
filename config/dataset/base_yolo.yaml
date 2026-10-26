@@ -1,0 +1,3 @@
+dataset_name: EFD_keypoint
+
+data_yaml: /scratch0/f89601470/ZenklEtAl2026/${dataset.dataset_name}/dataset.yaml

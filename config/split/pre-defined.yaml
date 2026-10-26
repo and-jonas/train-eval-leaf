@@ -1,0 +1,7 @@
+name: pre-defined
+
+path: ${hydra:runtime.cwd}/splits/${task}/${split.name}.csv
+
+experiment: benchmark_iter1_v1
+
+folds: all
