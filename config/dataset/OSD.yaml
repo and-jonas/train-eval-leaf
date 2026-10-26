@@ -1,4 +1,0 @@
-dataset_name: OSD
-
-data: /scratch0/f89601470/${dataset_name}/data
-labels: /scratch0/f89601470/${dataset_name}/labels

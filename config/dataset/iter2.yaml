@@ -1,6 +1,0 @@
-dataset_name: iter2
-
-data: /scratch0/f89601470/Symptoms/iter2/data
-labels: /scratch0/f89601470/Symptoms/iter2/labels
-
-meta: /scratch0/f89601470/Symptoms/iter2/meta

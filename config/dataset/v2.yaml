@@ -1,9 +1,0 @@
-dataset_name: Symptoms
-
-train:
-  data: /scratch0/f89601470/Symptoms/iter1/v2/train/data
-  labels: /scratch0/f89601470/Symptoms/iter1/v2/train/labels
-
-val:
-  data: /scratch0/f89601470/Symptoms/iter1/v2/val/data
-  labels: /scratch0/f89601470/Symptoms/iter1/v2/val/labels
