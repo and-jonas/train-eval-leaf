@@ -27,6 +27,6 @@ python train_eval_seg.py \
 
 Dataset paths and pretrained model weight locations must be adapted to the local environment.
 
-## Data and pretrained models
+## Datasets
 
-Refer to Zenkl et al. 2026 TODO Add doi 
+Datasets can be downloaded from Zenodo: https://doi.org/10.5281/zenodo.15310826
